@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página estilizada</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="shortcut icon" type="imagex/png" href="./brush.svg">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <script>
+        function bemvindo(){
+            alert("Seja bem-vindo(a)!")
+        }
+    </script>
+<br><br>
+    <button onclick="bemvindo()" class="btn">Clique aqui para as boas-vindas!</button>
+    <br><br><br>
+    <h4>Escolha a cor do background:</h4>
+    <br>
+    <button onclick="backAzul()" type="button" id="btnblue" class="btn btn-info" &#129482>Azul</button>
+    <br>
+    <button onclick="backVerde()" type="button" id="btngreen" class="btn btn-success">Verde</button>
+    <br>
+    <button onclick="backVermelho()" type="button" id="btnred" class="btn btn-danger">Vermelho</button>
+    <br><br><br>
+    <p id="txt">Tópicos Emergentes em Informática</p>
+    Clique para mudar o texto:
+    <br>
+    <button onclick="document.getElementById('txt').innerHTML ='Turma 31'" class="btn btn-outline-dark">Mostrar turma</button>
+
+
+</body>
+</html>

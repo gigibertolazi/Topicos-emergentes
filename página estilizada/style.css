@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+    
+}
+
+body{
+    background-color: rgb(15, 116, 116);
+}
+
+.btn{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+}
+
+#btnblue{
+    background-color: #2381ec;
+}
+
+#btnred{
+    background-color: #e22a2a;
+}
+
+#btngreen{
+    background-color: #1ac28a;
+}
+
+p{
+    font-size: 20px;
+}
+
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
+    border-style:groove;
+    border-radius: 5px;
+    background-color: rgba(235, 235, 235, 0.301);
+}
+
